@@ -1,0 +1,8 @@
+To Create new branch
+
+git branch dev-branch
+
+git checkout dev-branch
+
+git checkout master
+
