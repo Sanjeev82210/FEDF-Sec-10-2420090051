@@ -121,10 +121,7 @@ cp "$SCRIPT_DIR/.bashrc" "$HOME/"
 
 print_success "Dotfiles copied successfully"
 
-# Set proper permissions
-chmod +x "$HOME/.config/hypr/hyprland.conf" 2>/dev/null || true
-
-print_success "Permissions set"
+print_success "Dotfiles setup complete"
 
 echo ""
 echo "================================================"
